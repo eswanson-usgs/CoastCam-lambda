@@ -27,6 +27,7 @@ import imageio
 import calendar
 import datetime
 import csv
+import concurrent.futures
 
 ##### FUNCTIONS #####
 def unix2datetime(unixnumber):
@@ -66,15 +67,20 @@ def check_image(file):
     return isImage
         
 
-def change_image_name(source_filepath):
+def epoch2argus(args):
     """
     Change the filename of an image file in S3 from the epoch-only format to the argus-style format. Functions copies the image to
     the same folder in S3
     Input:
-        source_filepath - (string) current filepath of image where the image will be copied from.
+        args (tuple) contains the following:
+            source_filepath - (string) current filepath of image where the image will be copied from.
+            station (string) - station shortName
     Output:
         destination_filepath - (string) new filepath image is copied to.
     """
+
+    source_filepath = args[0]
+    station = args[1]
     
     isImage = check_image(source_filepath)
 
@@ -82,125 +88,116 @@ def change_image_name(source_filepath):
         source_filepath = "s3://" + source_filepath
         old_path_elements = source_filepath.split("/")
 
-##        #remove empty space elements from the list
-##        for elements in old_path_elements:
-##            if len(elements) == 0: 
-##                old_path_elements.remove(elements)
-##
-##
-##        bucket = old_path_elements[1]
-##        station = old_path_elements[3]
-##        filename = old_path_elements[5]
+        #remove empty space elements from the list
+        for elements in old_path_elements:
+            if len(elements) == 0: 
+                old_path_elements.remove(elements)
 
-##        filename_elements = filename.split(".")
-##        if len(filename_elements) == 4:
-##            return "Skipped. Filename already converted"
-##        else:
-##            image_unix_time = filename_elements[0]
-##            image_camera = filename_elements[7]
-##            image_type = filename_elements[8]
-##            image_file_type = filename_elements[9]
-##
-##            #convert unix time to date-time str in the format "yyyy-mm-dd HH:MM:SS"
-##            image_date_time, date_time_obj = unix2datetime(image_unix_time) 
-##            year = image_date_time[0:4]
-##            month = image_date_time[5:7]
-##            day = image_date_time[8:10]
-##            
-##            #day format for new filepath will have to be in format ddd_mmm.nn
-##            #timetuple() method returns tuple with several date and time attributes. tm_yday is the (attribute) day of the year
-##            day_of_year = str(datetime.date(int(year), int(month), int(day)).timetuple().tm_yday)
-##
-##            #can use built-in calendar attribute month_name[month] to get month name from a number. Month cannot have leading zeros
-##            month_word = calendar.month_name[int(month)]
-##            #month in the mmm word form
-##            month_formatted = month_word[0:3] 
-##
-##            new_format_day = day_of_year + "_" + month_formatted + "." + day
-##
-##            #reformat camera number
-##            cam_num = "c" + str(image_camera.split("Camera")[1])
-##
-##            #reformat filename
-##            new_filename = image_unix_time + "." + cam_num + "." + image_type + "." + image_file_type
-##            print(new_filename)
-##            
-##            new_filepath = "s3://" + bucket + "/cameras/" + station + "/" + cam_num + "/" + year + "/" + new_format_day + "/raw/" #file not included
-##            destination_filepath = new_filepath + new_filename
-##
-##            ###RENAME FILES IN /PRODUCTS FILPEATH ON S3
-##            new_product_filepath = "s3://cmgp-coastcam/cameras/madeira_beach/products/" + new_filename
-##
-##            #Use fsspec to copy image from old path to new path
-##            file_system = fsspec.filesystem('s3', profile='coastcam')
-##            #file_system.copy(source_filepath, new_product_filepath)
-##            file_system.copy(source_filepath, new_product_filepath)
-##
-##            #return new_product_filepath
-##            return destination_filepath
-##    #if not image, return blank string. Will be used to determine if file copy needs to be logged in csv
-##    else:
+        
+        bucket = old_path_elements[1]
+        filename = old_path_elements[-1]
+
+        filename_elements = filename.split(".")
+
+        #if filepath not already converted
+        if len(filename_elements) == 4:
+            image_unix_time = filename_elements[0]
+            cam_num = filename_elements[1]
+            image_type = filename_elements[2]
+            #special case for merge images:
+            if cam_num == 'timex':
+                cam_num = 'cx'
+                image_type = 'timex.merge'
+            image_file_type = filename_elements[3]
+
+            #convert unix time to date-time str in the format "yyyy-mm-dd HH:MM:SS"
+            image_date_time, date_time_obj = unix2datetime(image_unix_time)
+            year = date_time_obj.year
+            month = date_time_obj.month
+            day = date_time_obj.day
+            hour = date_time_obj.hour
+            minute = date_time_obj.minute
+            second = date_time_obj.second
+
+            timezone = 'GMT'
+
+            day_of_week = calendar.day_name[date_time_obj.weekday()]
+            day_of_week = day_of_week[0:3]
+            
+            #day format for new filepath will have to be in format ddd_mmm.nn
+            #timetuple() method returns tuple with several date and time attributes. tm_yday is the (attribute) day of the year
+            day_of_year = str(datetime.date(int(year), int(month), int(day)).timetuple().tm_yday)
+
+            #can use built-in calendar attribute month_name[month] to get month name from a number. Month cannot have leading zeros
+            month_word = calendar.month_name[int(month)]
+            #month in the mmm word form
+            month_formatted = month_word[0:3] 
+
+            #reformat filename
+            new_filename = f"{image_unix_time}.{day_of_week}.{month_formatted}.{day}_{hour}_{minute}_{second}.{timezone}.{year}.{station}.{cam_num}.{image_type}.{image_file_type}"
+            new_filepath = source_filepath.replace(filename, '') + new_filename
+
+            #Use fsspec to copy image from old name to new name. Delete old file
+            file_system = fsspec.filesystem('s3', profile='coastcam')
+            file_system.copy(source_filepath, new_filepath)
+            file_system.delete(source_filepath)
+
+            #return new_product_filepath
+            return new_filepath
+    #if not image, return blank string. Will be used to determine if file copy needs to be logged in csv
+    else:
         return 'Not an image. Not copied.'
-
-
-def write2csv(csv_list, csv_path):
-    """
-    Write data pertaining to the copied image files to a csv speified by the user.
-    Input:
-        csv_list - list (of lists) containing data to be written to csv. Each list includes source filepath & destination filepath
-        csv_path - desried location of generated csv file
-    Return:
-        None. However, csv file will appear in filepath the user specified.
-    """
-
-    #header
-    fieldnames = ['source filepath', 'destination filepath'] 
-
-    now = datetime.datetime.now()
-    now_string = now.strftime("%d-%m-%Y %H_%M_%S")
-    csv_name = csv_path + 'image copy log ' + now_string + '.csv'
-
-    with open(csv_name, 'w', encoding='UTF8', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(fieldnames)
-        writer.writerows(csv_list)
-    return 
-
+    
 
 ##### MAIN #####
 print("start:", datetime.datetime.now())
-#source folder filepath with format s3:/cmgp-coastcam/cameras/[station]/products/[filename]
-source_folder = "s3://cmgp-coastcam/cameras/madeira_beach/products/"  
-
-file_system = fsspec.filesystem('s3', profile='coastcam')
-image_list = file_system.glob(source_folder+'/*')
 
 common_image_list = ['.tif', '.tiff', '.bmp', 'jpg', '.jpeg', '.gif', '.png', '.eps', 'raw', 'cr2', '.nef', '.orf', '.sr2']
 
-#used to track copied images in a csv
-csv_path = "C:/Users/eswanson/OneDrive - DOI/Documents/GitHub/CoastCam/s3_filepaths/csv/"
-csv_list = []
+station = 'madbeach'
 
-#loop through folder of images
-for image in image_list:
-    for image_type in common_image_list: 
-        isImage = False 
-        if image.endswith(image_type):
-            isImage = True
-            break
-    if image.endswith('.txt') or isImage == False:
-        continue
-    else:
-        source_filepath = image
-        dest_filepath = chnage_image_name(source_filepath)
+file_system = fsspec.filesystem('s3', profile='coastcam')
 
-##        csv_entry = [source_filepath, dest_filepath]
-##        csv_list.append(csv_entry)
+### for images already in the cameras/date format filepath on S3 ###
+source_folder = "s3://cmgp-coastcam/cameras/madeira_beach"
+camera_list = file_system.glob(source_folder+'/c*')
 
-##now = datetime.datetime.now()
-##now_string = now.strftime("%d-%m-%Y %H_%M_%S")
-##csv_name = 'image copy log ' + now_string + '.csv'
-##write2csv(csv_list, csv_path)
+for cam_path in camera_list:
+    cam_path = 's3://' + cam_path
+
+    year_list = file_system.glob(cam_path+'/*')
+    for year_path in year_list:
+        if year_path.endswith('merge'):
+            merge_year_list = file_system.glob('s3://'+year_path+'/*')
+            for merge_year_path in merge_year_list:
+                merge_year_path = 's3://' + merge_year_path
+
+                day_list = file_system.glob(merge_year_path+'/*')
+                for day_path in day_list:
+                    day_path = 's3://' + day_path
+
+                    image_list = file_system.glob(day_path+'/*')
+                    args = ((image, station) for image in image_list)
+                    with concurrent.futures.ThreadPoolExecutor() as executor:
+                        results = executor.map(epoch2argus, args)
+
+        else:
+            day_list = file_system.glob(year_path+'/*')
+            for day_path in day_list:
+                day_path = 's3://' + day_path
+
+                image_list = file_system.glob(day_path+'/raw/*')
+                args = ((image, station) for image in image_list)
+                with concurrent.futures.ThreadPoolExecutor() as executor:
+                    results = executor.map(epoch2argus, args)
+
+### for images in /products folder in S3 ###
+source_folder = "s3://cmgp-coastcam/cameras/madeira_beach/products"                        
+image_list = file_system.glob(source_folder+'/*')
+args = ((image, station) for image in image_list)
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    results = executor.map(epoch2argus, args)
+        
 print("end:", datetime.datetime.now())
 
 
