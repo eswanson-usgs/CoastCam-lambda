@@ -4,7 +4,7 @@ Purpose: Convert the filename for an images at Nuvuk from the epoch only format 
 
 Description:
 The purpose of this script is to convert the S3 filepath for all images in a folder in the
-USGS Madeira Beach CoastCam bucket. Convert 
+USGS CoastCam bucket. Convert 
 The old filepath is in the format s3:/cmgp-coastcam/cameras/nuvuk/products/[long filename].
 The new filepath is in the format s3:/cmgp-coastcam/cameras/nuvuk]/[camera]/[year]/[day]/raw/[longfilename].
 day is the format ddd_mmm.nn. ddd is 3-digit number describing day in the year.
