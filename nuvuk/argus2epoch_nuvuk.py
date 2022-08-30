@@ -67,7 +67,7 @@ def check_image(file):
     return isImage
         
 
-def epoch2argus(args):
+def argus2epoch(args):
     """
     Change the filename of an image file in S3 from the epoch-only format to the argus-style format. Functions copies the image to
     the same folder in S3
@@ -182,7 +182,7 @@ for cam_path in camera_list:
                     image_list = file_system.glob(day_path+'/*')
                     args = ((image, station) for image in image_list)
                     with concurrent.futures.ThreadPoolExecutor() as executor:
-                        results = executor.map(epoch2argus, args)
+                        results = executor.map(argus2epoch, args)
 
         else:
             day_list = file_system.glob(year_path+'/*')
@@ -192,14 +192,14 @@ for cam_path in camera_list:
                 image_list = file_system.glob(day_path+'/raw/*')
                 args = ((image, station) for image in image_list)
                 with concurrent.futures.ThreadPoolExecutor() as executor:
-                    results = executor.map(epoch2argus, args)
+                    results = executor.map(argus2epoch, args)
 
 ### for images in /products folder in S3 ###
 source_folder = "s3://cmgp-coastcam/cameras/nuvuk/products"                        
 image_list = file_system.glob(source_folder+'/*')
 args = ((image, station) for image in image_list)
 with concurrent.futures.ThreadPoolExecutor() as executor:
-    results = executor.map(epoch2argus, args)
+    results = executor.map(argus2epoch, args)
 
 print("end:", datetime.datetime.now())
 
