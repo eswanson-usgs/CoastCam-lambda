@@ -155,7 +155,7 @@ def get_new_keys(old_key):
         #reformat filename
         new_filename = filename.replace(station, 'madbeach')
         
-        new_key = "cameras/madeira_beach/" + cam_num + "/" + year + "/" + new_format_day + "/raw/" + new_filename
+        new_key = "cameras/madeira_beach/" + cam_num + "/" + year + "/" + new_format_day + "/" + new_filename
         new_product_key = "cameras/madeira_beach/products/" + new_filename
         
     return new_key, new_product_key
@@ -441,7 +441,7 @@ def lambda_handler(event='none', context='none'):
             
             merge_filename = f"{unix_time}.{day_of_week}.{month_formatted}.{filename_day}_{hour}_{minute}_{second}.{timezone}.{filename_year}.{short_station}.cx.timex.merge.jpg"
             
-            upload_key = 'cameras/' + station + '/cx/merge/' + str(year) + '/' + str(day) + '/'+ merge_filename
+            upload_key = 'cameras/' + station + '/cx/' + str(year) + '/' + str(day) + '/'+ merge_filename
             print('upload key', upload_key)
                 
             with open(ofile, 'rb') as merged_img:

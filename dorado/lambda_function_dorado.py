@@ -1,6 +1,6 @@
 """
 Author: Eric Swanson - eswanson@contractor.usgs.gov
-Lambda function is triggered by image uploaded to the Isla Verde S3 coastcam bucket at with the prefix ('directory') cameras/islaverde/products/. Lambda function will not trigger 
+Lambda function is triggered by image uploaded to the Doradoh S3 coastcam bucket at with the prefix ('directory') cameras/dorado/products/. Lambda function will not trigger 
 if an image is uploaded to a different prefix in the S3 bucket. This image will be copied to the same S3 bucket at the prefix cameras/[station]/[camera]/[year]/[day]/raw/ .
 This function will also copy the file with the new filename to the /products directory and delete the old file.
 The day is formatted as [day of year]_mmm.[day of the month].
@@ -153,8 +153,8 @@ def get_new_keys(old_key):
 
         #reformat camera number
         
-        new_key = "cameras/islaverde/" + cam_num + "/" + year + "/" + new_format_day + "/raw/" + filename
-        new_product_key = "cameras/islaverde/products/" + filename
+        new_key = "cameras/dorado/" + cam_num + "/" + year + "/" + new_format_day + "/" + filename
+        new_product_key = "cameras/dorado/products/" + filename
         
     return new_key, new_product_key
     
@@ -388,7 +388,7 @@ def lambda_handler(event='none', context='none'):
     #         month_word = calendar.month_name[int(month)]
     #         month_formatted = month_word[0:3] 
             
-    #         short_station = 'islaverde'
+    #         short_station = 'dorado'
             
     #         #keep track of which cameras have imagery for the given unix time
     #         image_files_list = []
