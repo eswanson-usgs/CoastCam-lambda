@@ -98,9 +98,7 @@ def copy_s3_image(source_filepath):
 
         filename_elements = filename.split(".")
         #check to see if filename is properly formatted
-        if len(filename_elements) != 10:
-            return 'Not properly formatted. Not copied.'
-        else:
+        if len(filename_elements) == 10:
             image_unix_time = filename_elements[0]
             image_camera = filename_elements[7] 
             image_type = filename_elements[8]
@@ -127,14 +125,87 @@ def copy_s3_image(source_filepath):
                 new_format_day = "0" + day_of_year + "_" + month_formatted + "." + day
             else:
                 new_format_day = day_of_year + "_" + month_formatted + "." + day
+
+            print(new_format_day)
             
             new_filepath = "s3:/" + "/" + bucket + "/cameras/" + station + "/" + image_camera + "/" + year + "/" + new_format_day + "/" #file not included
             destination_filepath = new_filepath + filename
 
             #Use fsspec to copy image from old path to new path
-            file_system = fsspec.filesystem('s3', profile='coastcam')
-            file_system.copy(source_filepath, destination_filepath)
+##            file_system = fsspec.filesystem('s3', profile='coastcam')
+##            file_system.copy(source_filepath, destination_filepath)
             return destination_filepath
+        
+        #elif filepath not already converted
+        if len(filename_elements) == 4:
+            image_unix_time = filename_elements[0]
+
+            #####for picking up since the last time I ran this script - Eric 10/3/22#####
+            if int(image_unix_time) >= 1664548205:
+                image_camera = filename_elements[1]
+                image_type = filename_elements[2]
+                #special case for merge images:
+                if image_camera == 'timex':
+                    image_camera = 'cx'
+                    image_type = 'timex.merge'
+                image_file_type = filename_elements[3]
+
+                #convert unix time to date-time str in the format "yyyy-mm-dd HH:MM:SS"
+                image_date_time, date_time_obj = unix2datetime(image_unix_time)
+                year = date_time_obj.year
+                month = date_time_obj.month
+                day = date_time_obj.day
+                hour = date_time_obj.hour
+                minute = date_time_obj.minute
+                second = date_time_obj.second
+
+                timezone = 'GMT'
+
+                day_of_week = calendar.day_name[date_time_obj.weekday()]
+                day_of_week = day_of_week[0:3]
+                
+                #day format for new filepath will have to be in format ddd_mmm.nn
+                #timetuple() method returns tuple with several date and time attributes. tm_yday is the (attribute) day of the year
+                day_of_year = str(datetime.date(int(year), int(month), int(day)).timetuple().tm_yday)
+
+                #can use built-in calendar attribute month_name[month] to get month name from a number. Month cannot have leading zeros
+                month_word = calendar.month_name[int(month)]
+                #month in the mmm word form
+                month_formatted = month_word[0:3]
+
+                #add leading zero to new filename if necessary
+                if len(str(day)) == 1:
+                    needZero = True
+                    day =  '0' + str(day)
+                if len(str(hour)) == 1:
+                    needZero = True
+                    hour = '0' + str(hour)
+                if len(str(minute)) == 1:
+                    needZero = True
+                    minute = '0' + str(minute)
+                if len(str(second)) == 1:
+                    needZero = True
+                    second = '0' + str(second)
+
+                if int(day_of_year) < 10 and (len(day_of_year) == 1):
+                    new_format_day = "00" + day_of_year + "_" + month_formatted + "." + str(day)
+                elif (int(day_of_year) >= 10) and (int(day_of_year) < 100) and (len(day_of_year) == 2):
+                    new_format_day = "0" + day_of_year + "_" + month_formatted + "." + str(day)
+                else:
+                    new_format_day = day_of_year + "_" + month_formatted + "." + str(day)
+
+                #reformat filename
+                new_filename = f"{image_unix_time}.{day_of_week}.{month_formatted}.{day}_{hour}_{minute}_{second}.{timezone}.{year}.{station}.{image_camera}.{image_type}.{image_file_type}"
+                new_filepath = "s3:/" + "/" + bucket + "/cameras/" + station + "/" + image_camera + "/" + str(year) + "/" + new_format_day + "/" #file not included
+                    
+                destination_filepath = new_filepath + new_filename
+
+    ##            #Use fsspec to copy image from old name to new name. Delete old file
+                file_system = fsspec.filesystem('s3', profile='coastcam')
+                file_system.copy(source_filepath, destination_filepath)
+
+                #return new_product_filepath
+                return destination_filepath
     #if not image, return blank string. Will be used to determine if file copy needs to be logged in csv
     else:
         return 'Not an image. Not copied.'
@@ -167,7 +238,7 @@ def write2csv(csv_list, csv_path):
 ##### MAIN #####
 print("start:", datetime.datetime.now())
 #source folder filepath with format s3:/cmgp-coastcam/cameras/[station]/products/[filename]
-source_folder = "s3://cmgp-coastcam/cameras/caco-01/dumps/dumps/"  
+source_folder = "s3://cmgp-coastcam/cameras/caco-01/dumps/dumps"  
 
 #station caco-01 for testing
 file_system = fsspec.filesystem('s3', profile='coastcam')
