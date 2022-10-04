@@ -102,39 +102,44 @@ def copy_s3_image(source_filepath):
             return 'Not properly formatted. Not copied.'
         else:
             image_unix_time = filename_elements[0]
-            image_camera = filename_elements[7] 
-            image_type = filename_elements[8]
-            image_file_type = filename_elements[-1]
 
-            #convert unix time to date-time str in the format "yyyy-mm-dd HH:MM:SS"
-            image_date_time, date_time_obj = unix2datetime(image_unix_time) 
-            year = image_date_time[0:4]
-            month = image_date_time[5:7]
-            day = image_date_time[8:10]
-            
-            #day format for new filepath will have to be in format ddd_mmm.nn
-            #timetuple() method returns tuple with several date and time attributes. tm_yday is the (attribute) day of the year
-            day_of_year = str(datetime.date(int(year), int(month), int(day)).timetuple().tm_yday)
+            ######only copy after certain date to make it faster - Eric 10/4######
+            if int(image_unix_time) >= 1622824337:
+                image_camera = filename_elements[7] 
+                image_type = filename_elements[8]
+                image_file_type = filename_elements[-1]
 
-            #can use built-in calendar attribute month_name[month] to get month name from a number. Month cannot have leading zeros
-            month_word = calendar.month_name[int(month)]
-            #month in the mmm word form
-            month_formatted = month_word[0:3]
+                #convert unix time to date-time str in the format "yyyy-mm-dd HH:MM:SS"
+                image_date_time, date_time_obj = unix2datetime(image_unix_time) 
+                year = image_date_time[0:4]
+                month = image_date_time[5:7]
+                day = image_date_time[8:10]
+                
+                #day format for new filepath will have to be in format ddd_mmm.nn
+                #timetuple() method returns tuple with several date and time attributes. tm_yday is the (attribute) day of the year
+                day_of_year = str(datetime.date(int(year), int(month), int(day)).timetuple().tm_yday)
 
-            if int(day_of_year) < 10 and (len(day_of_year) == 1):
-                new_format_day = "00" + day_of_year + "_" + month_formatted + "." + day
-            elif (int(day_of_year) >= 10) and (int(day_of_year) < 100) and (len(day_of_year) == 2):
-                new_format_day = "0" + day_of_year + "_" + month_formatted + "." + day
-            else:
-                new_format_day = day_of_year + "_" + month_formatted + "." + day
-            
-            new_filepath = "s3:/" + "/" + bucket + "/cameras/" + station + "/" + image_camera + "/" + year + "/" + new_format_day + "/" #file not included
-            destination_filepath = new_filepath + filename
+                #can use built-in calendar attribute month_name[month] to get month name from a number. Month cannot have leading zeros
+                month_word = calendar.month_name[int(month)]
+                #month in the mmm word form
+                month_formatted = month_word[0:3]
 
-            #Use fsspec to copy image from old path to new path
-            file_system = fsspec.filesystem('s3', profile='coastcam')
-            file_system.copy(source_filepath, destination_filepath)
-            return destination_filepath
+                if int(day_of_year) < 10 and (len(day_of_year) == 1):
+                    new_format_day = "00" + day_of_year + "_" + month_formatted + "." + day
+                elif (int(day_of_year) >= 10) and (int(day_of_year) < 100) and (len(day_of_year) == 2):
+                    new_format_day = "0" + day_of_year + "_" + month_formatted + "." + day
+                else:
+                    new_format_day = day_of_year + "_" + month_formatted + "." + day
+                
+                new_filepath = "s3:/" + "/" + bucket + "/cameras/" + station + "/" + image_camera + "/" + year + "/" + new_format_day + "/" #file not included
+                filename = filename.replace('I2Rgus_WH1', 'caco-02')
+                destination_filepath = new_filepath + filename
+                
+
+                #Use fsspec to copy image from old path to new path
+                file_system = fsspec.filesystem('s3', profile='coastcam')
+                file_system.copy(source_filepath, destination_filepath)
+                return destination_filepath
     #if not image, return blank string. Will be used to determine if file copy needs to be logged in csv
     else:
         return 'Not an image. Not copied.'
