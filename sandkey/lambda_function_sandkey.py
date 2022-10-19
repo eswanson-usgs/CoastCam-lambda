@@ -103,64 +103,70 @@ def get_new_keys(old_key):
     mmm is 3 letter abbreviation of month. nn is 2 digit number of day of month.
     The only part of the filename that is changed is changing the station name from I2Rgus to the station name.
     New filepath is created and returned as a string by this function.
+    
+    For text files: send to the /logs folder. 
+    
+    For cx .mat files: send to a separate /cx folder on the same level as /c2
     Input:
         old_key - (string) current filepath of image where the image will be copied from.
         station (string) - the station short name.
     Output:
         new_key - (string) new filepath image is copied to.
-        new_product_key - (string) filepath with a renamed file for the /products directory
     '''
 
     old_path_elements = old_key.split("/")
 
-    filename = old_path_elements[3]
+    filename = old_path_elements[-1]
 
     filename_elements = filename.split(".")
-    station = filename_elements[6]
+    station = 'sandkey'
 
-    #check to see if filename is properly formatted and not a matlab file
-    if (len(filename_elements) != 10) or (filename.endswith('.mat')):
-        print('Not copied.')
-        return
-    else:
-        image_unix_time = filename_elements[0]
-        cam_num = filename_elements[7]
-        image_type = filename_elements[8]
-        image_file_type = filename_elements[9]
-
-        #convert unix time to date-time str in the format "yyyy-mm-dd HH:MM:SS"
-        image_date_time, date_time_obj = unix2datetime(image_unix_time) 
-        year = image_date_time[0:4]
-        month = image_date_time[5:7]
-        day = image_date_time[8:10]
+    #check to see if filename is for .jpg or .mat file
+    if len(filename_elements) == 10:
         
-        #day format for new filepath will have to be in format ddd_mmm.nn
-        #timetuple() method returns tuple with several date and time attributes. tm_yday is the (attribute) day of the year
-        day_of_year = str(datetime.date(int(year), int(month), int(day)).timetuple().tm_yday)
+        #check to see if this is cx .mat file or image
+        if ('cx' in filename) or (filename.endswith('.jpg')):
+            image_unix_time = filename_elements[0]
+            cam_num = filename_elements[7]
+            image_type = filename_elements[8]
+            image_file_type = filename_elements[9]
+    
+            #convert unix time to date-time str in the format "yyyy-mm-dd HH:MM:SS"
+            image_date_time, date_time_obj = unix2datetime(image_unix_time) 
+            year = image_date_time[0:4]
+            month = image_date_time[5:7]
+            day = image_date_time[8:10]
+            
+            #day format for new filepath will have to be in format ddd_mmm.nn
+            #timetuple() method returns tuple with several date and time attributes. tm_yday is the (attribute) day of the year
+            day_of_year = str(datetime.date(int(year), int(month), int(day)).timetuple().tm_yday)
+    
+            #can use built-in calendar attribute month_name[month] to get month name from a number. Month cannot have leading zeros
+            month_word = calendar.month_name[int(month)]
+            #month in the mmm word form
+            month_formatted = month_word[0:3] 
+    
+            #add leading zeros
+            if int(day_of_year) < 10 and (len(day_of_year) == 1):
+                new_format_day = "00" + day_of_year + "_" + month_formatted + "." + day
+            elif (int(day_of_year) >= 10) and (int(day_of_year) < 100) and (len(day_of_year) == 2):
+                new_format_day = "0" + day_of_year + "_" + month_formatted + "." + day
+            else:
+                new_format_day = day_of_year + "_" + month_formatted + "." + day
 
-        #can use built-in calendar attribute month_name[month] to get month name from a number. Month cannot have leading zeros
-        month_word = calendar.month_name[int(month)]
-        #month in the mmm word form
-        month_formatted = month_word[0:3] 
-
-        #add leading zeros
-        if int(day_of_year) < 10 and (len(day_of_year) == 1):
-            new_format_day = "00" + day_of_year + "_" + month_formatted + "." + day
-        elif (int(day_of_year) >= 10) and (int(day_of_year) < 100) and (len(day_of_year) == 2):
-            new_format_day = "0" + day_of_year + "_" + month_formatted + "." + day
+            #reformat filename
+            new_filename = filename.replace(station, 'sandkey')
+            
+            new_key = "cameras/sandkey/" + cam_num + "/" + year + "/" + new_format_day + '/' + new_filename
+            
         else:
-            new_format_day = day_of_year + "_" + month_formatted + "." + day
-
-        #reformat camera number
-        
-
-        #reformat filename
-        new_filename = filename.replace(station, 'sandkey')
-        
-        new_key = "cameras/sandkey/" + cam_num + "/" + year + "/" + new_format_day + '/' + new_filename
-        new_product_key = "cameras/sandkey/products/" + new_filename
-        
-    return new_key, new_product_key
+            return 'not copied'
+            
+    #check for log files
+    elif filename.endswith('.txt'):
+        new_key = "cameras/sandkey/logs/" + filename
+            
+    return new_key
     
 ##### CLASSES #####
 class Camera:
@@ -234,9 +240,8 @@ def lambda_handler(event='none', context='none'):
     print('unformatted key:',key)
     
     #get reformatted filepath for image
-    new_key, new_product_key = get_new_keys(key)
+    new_key = get_new_keys(key)
     print('formatted key:', new_key, '\n')
-    print('key for new filename in /products:', new_product_key)
     
     copy_source = {
     'Bucket': bucket,
@@ -252,11 +257,7 @@ def lambda_handler(event='none', context='none'):
         
         s3.copy(copy_source, bucket, new_key)
         print(f'{new_key} copied')
-        # s3.copy(copy_source, bucket, new_product_key)
-        # print(f'{new_product_key} copied')
         
-        # #delete file with old filename
-        # s3.delete_object(Bucket=bucket, Key=key)
     except Exception as e:
         print(e)
         print('Error getting object {} from bucket {}. Make sure they exist and your bucket is in the same region as this function.'.format(key, bucket))
