@@ -1,0 +1,843 @@
+source filepath,destination filepath
+s3://cmgp-coastcam/cameras/sandkey/products/1664388000.Wed.Sep.28_18_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/271_Sep.28/1664388000.Wed.Sep.28_18_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1664388000.Wed.Sep.28_18_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/271_Sep.28/1664388000.Wed.Sep.28_18_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1664388000.Wed.Sep.28_18_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/271_Sep.28/1664388000.Wed.Sep.28_18_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665662400.Thu.Oct.13_12_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665666000.Thu.Oct.13_13_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665669600.Thu.Oct.13_14_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665673200.Thu.Oct.13_15_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665676800.Thu.Oct.13_16_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665680400.Thu.Oct.13_17_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665684000.Thu.Oct.13_18_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665687600.Thu.Oct.13_19_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665691200.Thu.Oct.13_20_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665694800.Thu.Oct.13_21_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/286_Oct.13/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665698400.Thu.Oct.13_22_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665748800.Fri.Oct.14_12_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665752400.Fri.Oct.14_13_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665756000.Fri.Oct.14_14_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665759600.Fri.Oct.14_15_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665766800.Fri.Oct.14_17_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665770400.Fri.Oct.14_18_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665774000.Fri.Oct.14_19_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665777600.Fri.Oct.14_20_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665781200.Fri.Oct.14_21_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/287_Oct.14/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665784800.Fri.Oct.14_22_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665835200.Sat.Oct.15_12_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665838800.Sat.Oct.15_13_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665842400.Sat.Oct.15_14_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665846000.Sat.Oct.15_15_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665849600.Sat.Oct.15_16_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665853200.Sat.Oct.15_17_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665856800.Sat.Oct.15_18_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665860400.Sat.Oct.15_19_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665864000.Sat.Oct.15_20_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665867600.Sat.Oct.15_21_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/288_Oct.15/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665871200.Sat.Oct.15_22_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665921600.Sun.Oct.16_12_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665925200.Sun.Oct.16_13_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665928800.Sun.Oct.16_14_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665932400.Sun.Oct.16_15_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665936000.Sun.Oct.16_16_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665939600.Sun.Oct.16_17_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665943200.Sun.Oct.16_18_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665946800.Sun.Oct.16_19_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665950400.Sun.Oct.16_20_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665954000.Sun.Oct.16_21_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/289_Oct.16/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1665957600.Sun.Oct.16_22_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666008000.Mon.Oct.17_12_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666011600.Mon.Oct.17_13_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666015200.Mon.Oct.17_14_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666018800.Mon.Oct.17_15_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666022400.Mon.Oct.17_16_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666026000.Mon.Oct.17_17_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666029600.Mon.Oct.17_18_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666033200.Mon.Oct.17_19_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666036800.Mon.Oct.17_20_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666040400.Mon.Oct.17_21_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/290_Oct.17/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666044000.Mon.Oct.17_22_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666094400.Tue.Oct.18_12_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666098000.Tue.Oct.18_13_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666101600.Tue.Oct.18_14_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666105200.Tue.Oct.18_15_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666108800.Tue.Oct.18_16_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.bright.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.bright.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.bright.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.dark.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.dark.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.dark.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.snap.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.snap.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.snap.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.timex.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.timex.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.timex.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.var.jpg,s3://cmgp-coastcam/cameras/sandkey/c2/2022/291_Oct.18/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.var.jpg
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.c2.var.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.cx.cBathy.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.cx.runup100.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/1666112400.Tue.Oct.18_17_00_00.GMT.2022.sandkey.cx.runup175.mat,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221014_1700.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221014_2000.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221014_2100.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221014_2200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221014_2300.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_1200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_1300.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_1400.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_1500.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_1600.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_1700.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_1800.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_1900.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_2000.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_2100.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_2200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221015_2300.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_1200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_1300.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_1400.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_1500.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_1600.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_1700.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_1800.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_1900.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_2000.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_2100.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_2200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221016_2300.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_1200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_1300.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_1400.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_1500.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_1600.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_1700.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_1800.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_1900.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_2000.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_2100.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_2200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221017_2300.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221018_1200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221018_1300.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221018_1400.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221018_1500.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221018_1600.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/S3status_20221018_1700.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_1200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_1300.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_1400.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_1500.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_1600.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_1700.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_1800.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_1900.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_2000.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_2100.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/ftp_files_transfer_2200.txt,Not an image. Not copied.
+s3://cmgp-coastcam/cameras/sandkey/products/status_20220928_1800.txt,Not an image. Not copied.
