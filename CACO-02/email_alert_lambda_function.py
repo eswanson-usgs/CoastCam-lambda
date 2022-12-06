@@ -25,7 +25,7 @@ def send_email_alert(Data):
     response = ses_client.send_email(
         Destination={
             "ToAddresses": [
-                "eswanson@contractor.usgs.gov",
+                "csherwood@usgs.gov",
             ],
         },
         Message={
@@ -146,7 +146,8 @@ def lambda_handler(event, context):
         c1_last_epoch, c1_last_gmt, c1_last_est = get_times(c1_last_file)
     else:
         c1_first_file = None
-        
+     
+    i = 0    
     for i, file in enumerate(bucket.objects.filter(Prefix=c2_prefix)):
         
         if i == 0:
@@ -154,7 +155,7 @@ def lambda_handler(event, context):
             
         tally = tally + 1
     
-    if tally != 0:
+    if i != 0:
         c2_last_file = file.key
         
         c2_first_epoch, c2_first_gmt, c2_first_est = get_times(c2_first_file)
