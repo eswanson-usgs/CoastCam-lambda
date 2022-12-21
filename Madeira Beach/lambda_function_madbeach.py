@@ -1,10 +1,12 @@
 """
 Author: Eric Swanson - eswanson@contractor.usgs.gov
 Lambda function is triggered by image uploaded to the Madeira Beach S3 coastcam bucket at with the prefix ('directory') cameras/madeira_beach/products/. Lambda function will not trigger 
-if an image is uploaded to a different prefix in the S3 bucket. This image will be copied to the same S3 bucket at the prefix cameras/[station]/[camera]/[year]/[day]/raw/ .
+if an image is uploaded to a different prefix in the S3 bucket. This image will be copied to the same S3 bucket at the prefix cameras/[station]/[camera]/[year]/[day]/ .
 This function will also copy the file with the new filename to the /products directory and delete the old file.
 The day is formatted as [day of year]_mmm.[day of the month].
 The year, day, and camera are derived from the filename. 
+
+This Lambda function will also perform rectification on timex images and copy the rectified image to the cx/merege/[year]/[day]/ folder.
 
 """
 
@@ -94,7 +96,7 @@ def get_new_keys(old_key):
     '''
     Get the new keys (filepath) for an image in S3. The old key will have the format
     cameras/[station]/products/[long filename]. The new key will have the format
-    cameras/[station]/[camera]/[year]/[day]/raw/[filename]
+    cameras/[station]/[camera]/[year]/[day]/[filename]
     There will also be a second key generated that renames the file in the old filepath (/products directory) with a new name that matches the format rest of the CoastCam cameras.
     The filename will have the format [unix time].[camera number].[image type].[file extension]
     day is in the format day is the format ddd_mmm.nn. ddd is 3-digit number describing day in the year.
@@ -155,7 +157,7 @@ def get_new_keys(old_key):
         #reformat filename
         new_filename = filename.replace(station, 'madbeach')
         
-        new_key = "cameras/madeira_beach/" + cam_num + "/" + year + "/" + new_format_day + "/" + new_filename
+        new_key = "cameras/madeira_beach/" + cam_num + "/" + year + "/" + new_format_day + '/' + new_filename
         new_product_key = "cameras/madeira_beach/products/" + new_filename
         
     return new_key, new_product_key
@@ -261,7 +263,7 @@ def lambda_handler(event='none', context='none'):
         raise e
         
     key_elements = getPathElements(new_key)
-    station = key_elements[1]
+    station = "madeira_beach"
     print('station:', station)
     
     try:
@@ -384,6 +386,14 @@ def lambda_handler(event='none', context='none'):
             hour = str(date_time_obj.hour)
             minute = str(date_time_obj.minute)
             second = str(date_time_obj.second)
+            if len(filename_day) == 1:
+                filename_day =  '0' + filename_day
+            if len(hour) == 1:
+                hour = '0' + hour
+            if len(minute) == 1:
+                minute = '0' + minute
+            if len(second) == 1:
+                second = '0' + second
             timezone = 'GMT'
             
             day_of_week = calendar.day_name[date_time_obj.weekday()]
@@ -398,7 +408,7 @@ def lambda_handler(event='none', context='none'):
             image_files_list = []
             time_cam_list = []
             for camera in cameras:
-                image_filepath = camera.filepath + '/' + year + '/' + day + '/raw/' + unix_time + '.' + day_of_week + '.' + month_formatted + '.' + filename_day + '_' + hour + '_' + minute + '_' + second + '.' + timezone + '.' + filename_year + '.' + short_station + '.' + camera.camera_number.lower() + '.timex.jpg'
+                image_filepath = camera.filepath + '/' + year + '/' + day + '/' + unix_time + '.' + day_of_week + '.' + month_formatted + '.' + filename_day + '_' + hour + '_' + minute + '_' + second + '.' + timezone + '.' + filename_year + '.' + short_station + '.' + camera.camera_number.lower() + '.timex.jpg'
                 print('image_filepath:', image_filepath)
                 try:
                     #if exists, download image to tmp folder
