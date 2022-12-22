@@ -230,7 +230,6 @@ def lambda_handler(event='none', context='none'):
     bucket = event['Records'][0]['s3']['bucket']['name']
     key = urllib.parse.unquote_plus(event['Records'][0]['s3']['object']['key'], encoding='utf-8')
 
-    print('bucket:', bucket)
     print('unformatted key:',key)
     
     #get reformatted filepath for image
@@ -249,24 +248,28 @@ def lambda_handler(event='none', context='none'):
         response = s3.get_object(Bucket=bucket, Key=key)
         waiter = s3.get_waiter('object_exists')
         waiter.wait(Bucket=bucket, Key=key)
-        
+    
         s3.copy(copy_source, bucket, new_key)
         print(f'{new_key} copied')
-        s3.copy(copy_source, bucket, new_product_key)
-        print(f'{new_product_key} copied')
-        
-        #delete file with old filename
-        s3.delete_object(Bucket=bucket, Key=key)
+        # #s3.copy(copy_source, bucket, new_product_key, MetadataDirective='REPLACE')
+        # s3.copy_object(Key=new_product_key, Bucket=bucket, CopySource={"Bucket": bucket, "Key": key}, Metadata={"my_new_key": "my_new_val"}, MetadataDirective="REPLACE")
+        # print(f'{new_product_key} copied')
+        # 
+        # #delete file with old filename
+        # s3.delete_object(Bucket=bucket, Key=key)
     except Exception as e:
         print(e)
-        print('Error getting object {} from bucket {}. Make sure they exist and your bucket is in the same region as this function.'.format(key, bucket))
-        raise e
+        #print('Error getting object {} from bucket {}. Make sure they exist and your bucket is in the same region as this function.'.format(key, bucket))
+        # raise e
         
     key_elements = getPathElements(new_key)
     station = "madeira_beach"
-    print('station:', station)
     
     try:
+            # response = s3.get_object(Bucket=bucket, Key=new_key)
+            # waiter = s3.get_waiter('object_exists')
+            # waiter.wait(Bucket=bucket, Key=new_key)
+            
         ###only want timex images merged###
         if key_elements[-1].endswith('timex.jpg'):
             #get list of cameras for station
@@ -442,8 +445,10 @@ def lambda_handler(event='none', context='none'):
                 rectified_image = rectifier.rectify_images(metadata_list[0], image_files_list, intrinsics_list, extrinsics_list, local_origin)
              
             ofile = '/tmp/' + unix_time + '.timex.merge.jpg'
-            plt.imshow( np.flip(rectified_image, 0), extent=[xmin, xmax, ymin, ymax])
             plt.axis('on')
+            plt.xlabel('Offshore (m)')
+            plt.ylabel('Alongshore (m)')
+            plt.imshow(np.flip(rectified_image,0), extent=[xmin, xmax, ymin, ymax])
             plt.savefig(ofile, dpi=200)
             
             #ofile = '/tmp/' + unix_time + '.timex.merge.jpg'
@@ -458,15 +463,15 @@ def lambda_handler(event='none', context='none'):
                 s3.upload_fileobj(merged_img, bucket, upload_key)
                 
             print(f'{upload_key} uploaded to S3')
-    
-            
+        
+                
         ###images that are not timex will only be copied
         else:
             print(f'{new_key} copied')
             
     except Exception as e:
         print(e)
-        raise e
+        # raise e
 
     
         
